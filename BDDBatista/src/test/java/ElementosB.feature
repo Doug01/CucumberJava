@@ -11,5 +11,12 @@ Funcionalidade: Preencher formulario Batista
     E preencho meus dados
     E clico em criar
     Entao meu usuario foi criado com sucesso
+    
+    @Test2
+    Cenario: Testar CheckBox
+    Dado Que eu esteja no site do batista
+    Quando Eu selecionar os botoes checkbox
+    Entao Os dois botoes serao selecionados
+    
 
   
